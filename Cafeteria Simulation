@@ -16,7 +16,6 @@ def exploreOnly():
 
     return total_happiness
 
-#Donovan
 # Function to implement the Exploit Only strategy
 # Exploit Only: Visits the best cafeteria
 # repeatedly for 300 days
@@ -46,7 +45,7 @@ def exploitOnly():
 
     return total_happiness
 
-#Charlie-function visits a random caf e percent of the time
+#Function visits a random caf e percent of the time
 #Otherwise visits best cafeteria
 def eGreedy(e = 10)->int:
     #Calculate the expected Happiness and regret
@@ -88,7 +87,6 @@ def eGreedy(e = 10)->int:
     #Finally return the total sum of happiness
     return total_happiness
 
-# Terrance Davis
 # Simulating cafeteria strategies for happiness calculations
 # Main simulation function
 def simulation(t, e=10):
