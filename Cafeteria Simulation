@@ -2,7 +2,7 @@ import random
 
 cafe_means = [7,4,10]
 cafe_devs = [3,10,6]
-\
+
 # Function to implement the Explore Only strategy
 # Explore Only: Visits each cafeteria evenly
 # over 300 days.
